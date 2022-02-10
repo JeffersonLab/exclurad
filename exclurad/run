@@ -1,0 +1,17 @@
+rm $1.e
+#rm fort.*
+g77 -c -g $1.f  
+g77 $1.o -w -g -o $1.e \
+   -L/cern/pro/lib \
+   -lpacklib \
+   -lmathlib \
+   -lkernlib \
+   -lpawlib \
+   -lpdflib \
+   -lkernlib \
+   -lmathlib
+rm $1.o
+
+chmod 755 $1.e
+./$1.e
+
