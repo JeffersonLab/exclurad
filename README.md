@@ -1,7 +1,11 @@
-# Commands to run:
+# Getting Started
 
 ## clone the repository
 git clone https://github.com/JeffersonLab/exclurad.git
+
+## build the executable
+cd exclurad/exclurad
+scons-2.7
 
 ## Example input file (input.dat):
 
@@ -26,10 +30,5 @@ git clone https://github.com/JeffersonLab/exclurad.git
 ## Example usage:
 ./build/exclurad.exe < input.dat
 
-# Instructions to build
-##Move into the generator repository
-cd exclurad/exclurad/
 
-## Build the aao_norad generator executable
-scons-2.7
 
