@@ -1,9 +1,11 @@
 # Getting Started
 
-## clone the repository
+## Clone the repository
+```
 git clone https://github.com/JeffersonLab/exclurad.git
+```
 
-## build the executable
+## Build the executable
 ```
 cd exclurad/exclurad
 scons-2.7
