@@ -4257,9 +4257,11 @@ c
       endif
       if (iphy.eq.3) then
 	if (channel_opt.eq.1) then
-	  data_file = 'maid2000-PPpi.tbl'
+	  data_file = 'maid07-PPpi.tbl'
 	elseif (channel_opt.eq.3) then
-	  data_file = 'maid2000-PNpi.tbl'
+	  data_file = 'maid07-PNpi.tbl'
+        elseif (channel_opt.eq.2) then
+          data_file = 'maid07-NPpi.tbl'
 	endif
       endif
 c
