@@ -1,10 +1,11 @@
-#Exclurad
+# Exclurad
+
 Fortran code for calculation of radiative corrections to exclusive electroproduction of pions on a nucleon. Current version computes corrections to the unpolarized coincidence cross section and beam asymmetry (aka the fifth structure function). Distinctive features are 
 a) Covariant technique of cancellation of the infrared divergence leads to independence of the parameter that splits soft and hard regions of brem photons and 
 b) Integration over the brem photon phase space is exact, not relying on the peaking approximation. 
 MAID and AO are used to model the reaction mechanism. The code is extendable to any exclusive electron scattering with two-body breakup, such as p(e,e'K)Lambda, d(e,e'p)n, 3He(e,e'p)d, etc.
 
-##References
+## References
 ```
 QED RADIATIVE CORRECTIONS IN PROCESSES OF EXCLUSIVE PION ELECTROPRODUCTION.
 By A. Afanasev (Jefferson Lab), I. Akushevich (Duke U.), V. Burkert, K. Joo (Jefferson Lab) 
