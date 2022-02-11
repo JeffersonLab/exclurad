@@ -4,9 +4,11 @@
 git clone https://github.com/JeffersonLab/exclurad.git
 
 ## build the executable
+```
 cd exclurad/exclurad
 scons-2.7
 
+```
 ## Example input file (input.dat):
 
 ```
@@ -28,7 +30,8 @@ scons-2.7
 ```
 
 ## Example usage:
+```
 ./build/exclurad.exe < input.dat
 
-
+```
 
